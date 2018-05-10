@@ -1,0 +1,47 @@
+/* Box sizing defaults */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Link defaults */
+a:link, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+/* Size and positioning */
+
+/* Fonts and colors */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #343D4D;
+    background: #C9CEC3;
+}
+
+.myname, .section-title {
+    color: #943037;
+}
+
+.myname {
+    font-size: 4em;
+}
+
+.section-title {
+    background-color: #C0A98A;
+    font-size: 3em;
+}
