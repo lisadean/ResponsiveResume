@@ -42,6 +42,9 @@ section {
 }
 
 .wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
 }
 
@@ -135,19 +138,24 @@ html {
     font-variant: small-caps;
 }
 
-/* Colors */
+/* Colors and borders */
 html {
-    color: #343D4D;
-    background-color: #D2C7A3;
+    color: #424142;
+    background-color: #F0C49A;
+}
+
+.section-title, li {
+    border-radius: 3px;
 }
 
 li {
-    background-color: #C9CEC3;
+    background-color: #CA8A67;
+    color: #000;
 }
 
 .section-title {
-    background-color: #943037;
-    color: #C0A98A;
+    background-color: #A56F57;
+    color: #F0C49A;
 }
 
 .myname {
